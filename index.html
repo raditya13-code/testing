@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentasi Lampu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2 Jenis Lampu Yang Ada Dirumah Saya</h1>
+  </header>
+
+  <div class="container">
+    <!-- Lampu LED -->
+    <div class="card">
+      <img src="demon.jpg" alt="">
+      <h2>Lampu LED</h2>
+      <p><strong>Deskripsi:</strong> Lampu LED (Light Emitting Diode) adalah jenis lampu hemat energi yang menggunakan dioda untuk menghasilkan cahaya. Lampu ini memiliki umur panjang dan efisiensi tinggi.</p>
+      <p><strong>Kelebihan:</strong> Tahan lama, tidak mudah panas, hemat energi hingga 80% dibandingkan lampu pijar.</p>
+      <p><strong>Penggunaan:</strong> Rumah tangga, perkantoran, penerangan jalan, dan perangkat elektronik.</p>
+    </div>
+
+    <!-- Lampu Pijar -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Incandescent_light_bulb.jpg/640px-Incandescent_light_bulb.jpg" alt="Lampu Pijar">
+      <h2>Lampu Pijar</h2>
+      <p><strong>Deskripsi:</strong> Lampu pijar adalah lampu yang menghasilkan cahaya melalui pemanasan kawat filamen yang berada di dalam bola kaca berisi gas inert.</p>
+      <p><strong>Kelebihan:</strong> Harga murah, nyala langsung tanpa jeda, warna cahaya hangat alami.</p>
+      <p><strong>Kekurangan:</strong> Boros energi, umur pakai lebih pendek, menghasilkan panas tinggi.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Lampu Kaka | Dibuat oleh Raditya Satriyo Utomo
+  </footer>
+</body>
+</html>
